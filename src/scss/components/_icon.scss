@@ -10,12 +10,12 @@
 .icon-theme {
   width: 45px;
   height: 45px;
-  background-image: url("/src/icons/sun.svg");
+  background-image: url("../icons/sun.svg");
   background-size: contain;
   background-repeat: no-repeat;
   @extend %transition;
   &.theme-light {
-    background-image: url("/src/icons/moon.svg");
+    background-image: url("../icons/moon.svg");
   }
 }
 

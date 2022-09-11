@@ -1,4 +1,4 @@
-export { i18Obj, getTranslate, langEn, langRu, language };
+export { i18Obj, getTranslate, language, langEn, langRu };
 
 const i18Obj = {
   en: {

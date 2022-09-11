@@ -1,0 +1,9 @@
+.layout-3-column {
+  @include columns($width: calc(33.33% - $image-gap));
+}
+
+.layout-1-column {
+  @include media-tablet {
+    justify-content: center;
+  }
+}

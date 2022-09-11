@@ -1,0 +1,72 @@
+.footer__container {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  @include media-tablet {
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  @include media-mobile {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+.footer-date {
+  @include font($fs-main, 5rem, 400);
+  @include media-tablet {
+    line-height: 2.4rem;
+  }
+  &__item:nth-child(2) {
+    padding: 0 1.5rem;
+  }
+  &__item:last-child {
+    @extend %transition;
+    &:hover {
+      @extend %hover-color;
+    }
+  }
+}
+
+.footer-logo {
+  @include font($fs-main, 5rem, 400);
+  padding-top: 0.5rem;
+  @extend %text-center;
+  @extend %transition;
+  @include media-tablet {
+    padding-top: 1.8rem;
+    line-height: 2.4rem;
+  }
+  @include media-mobile {
+    padding-top: 1rem;
+  }
+  &:hover {
+    @extend %hover-color;
+  }
+  justify-self: center;
+  line-height: 4rem;
+}
+
+.footer-social {
+  @extend %flex;
+  justify-content: end;
+  padding-top: 0.5rem;
+  @extend %transition;
+  @include media-tablet {
+    padding-top: 2.7rem;
+  }
+  @include media-mobile {
+    padding-top: 1rem;
+  }
+}
+
+.social-list {
+  display: inline-flex;
+}
+.social-list__item {
+  padding-top: 0.5rem;
+  &:not(:last-child) {
+    padding-right: 2.75rem;
+  }
+}

@@ -1,0 +1,49 @@
+%flex {
+  display: flex;
+}
+
+%flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+%js-content-space-between {
+  justify-content: space-between;
+}
+
+%al-items-center {
+  align-items: center;
+}
+
+%js-content-center {
+  justify-content: center;
+}
+
+%text-center {
+  text-align: center;
+}
+
+%transition {
+  transition: ease-in-out 0.5s;
+}
+
+%cursor-pointer {
+  cursor: pointer;
+}
+
+%bg-color-main {
+  background-color: $main-color;
+}
+
+%bg-color-additory {
+  background-color: $dark-color;
+}
+
+%icon-hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+
+%hover-color {
+  color: $main-color;
+}

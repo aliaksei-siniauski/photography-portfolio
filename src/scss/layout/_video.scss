@@ -1,0 +1,19 @@
+.video-player {
+  position: relative;
+  min-height: 704px;
+  @extend %flex;
+  @extend %al-items-center;
+  @extend %js-content-center;
+  background: url("/src/images/video.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  @include media-desktop {
+    background-size: cover;
+    min-height: 800px;
+  }
+  @include media-tablet {
+    min-height: 418px;
+    background: url("/src/images/video-mb.jpg");
+    background-repeat: no-repeat;
+  }
+}

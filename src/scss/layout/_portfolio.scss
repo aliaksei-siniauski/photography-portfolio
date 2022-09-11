@@ -1,0 +1,39 @@
+.portfolio-items {
+  flex-wrap: wrap;
+  padding-top: 6rem;
+  gap: $image-gap;
+  @media screen and (max-width: 964px) {
+    justify-content: center;
+  }
+}
+
+.portfolio-buttons {
+  @extend %flex;
+  flex-wrap: wrap;
+  @extend %js-content-center;
+  gap: 5px;
+}
+
+.portfolio-button {
+  min-width: 220px;
+  &.theme-light {
+    background: $main-color;
+    color: $black-color;
+    &:hover {
+      color: $light-color;
+    }
+  }
+  &--active {
+    padding: 0.8rem 0 0.7rem;
+    color: $dark-color;
+    background: $main-color;
+    @extend %transition;
+    &:hover {
+      color: $light-color;
+    }
+    &.theme-light {
+      background: $black-color;
+      color: $main-color;
+    }
+  }
+}

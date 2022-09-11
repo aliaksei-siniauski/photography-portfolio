@@ -1,0 +1,69 @@
+.skills-items {
+  @extend %flex;
+  @extend %js-content-space-between;
+  gap: 4rem;
+  @media screen and (max-width: 964px) {
+    flex-wrap: wrap;
+  }
+  @include media-tablet {
+    gap: 3.5rem;
+    padding-bottom: 3.7rem;
+    justify-content: center;
+  }
+  @include media-mobile {
+    justify-content: center;
+  }
+}
+
+.skill-item {
+  max-width: 320px;
+  @extend %flex;
+  @extend %flex-column;
+  @extend %js-content-center;
+  @extend %al-items-center;
+  background-repeat: no-repeat;
+  background-position: center top;
+  @extend %text-center;
+  &:nth-child(1) {
+    background-image: url("/src/icons/skill-1.svg");
+    background-size: 60px;
+  }
+  &:nth-child(2) {
+    background-image: url("/src/icons/skill-2.svg");
+    background-size: 55px;
+    @include media-tablet {
+      padding-right: 0.6rem;
+    }
+  }
+  &:nth-child(3) {
+    background-image: url("/src/icons/skill-3.svg");
+    background-size: 66px 45px;
+  }
+  &:last-child {
+    background-image: url("/src/icons/skill-4.svg");
+    background-size: 31px;
+    padding-right: 1rem;
+  }
+  @include media-tablet {
+    max-width: 300px;
+    min-height: 224px;
+  }
+}
+
+.skill-item__title {
+  margin: 9.8rem 0 0;
+  font-weight: 700;
+  @include media-tablet {
+  }
+}
+
+.skill-item__description {
+  max-width: 280px;
+  margin: 2rem 0 0;
+  padding-bottom: 0.8rem;
+  @include font($fs-text, 3.6rem, 400);
+  @include media-tablet {
+    padding-inline: 1rem;
+    line-height: 2.2rem;
+  }
+}

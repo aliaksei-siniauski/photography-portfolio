@@ -1,0 +1,41 @@
+h1 {
+  @include font(6rem, 12rem, 700);
+  font-family: $ff-second;
+  color: $light-color;
+  &.theme-light {
+    color: $black-color;
+  }
+  @include media-tablet {
+    @include font($fs-title-mb, 6.4rem, 400);
+  }
+}
+
+h2 {
+  @include font($fs-section-title, 8rem, 700);
+  font-family: $ff-second;
+  color: $main-color;
+  &.theme-light {
+    color: $black-color;
+  }
+  @include media-tablet {
+    font-size: $fs-title-mb;
+  }
+}
+
+h3 {
+  @include font($fs-price-title, 5.6rem, 700);
+  font-family: $ff-second;
+  color: $light-color;
+  &.theme-light {
+    color: $black-color;
+  }
+}
+
+h4 {
+  @include font($fs-main, 4rem, 700);
+  font-family: $ff-first;
+  color: $light-color;
+  &.theme-light {
+    color: $black-color;
+  }
+}

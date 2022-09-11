@@ -1,4 +1,4 @@
-export { i18Obj, getTranslate, getLocalStorage, setLocalStorage };
+export { i18Obj, getTranslate, langEn, langRu, language };
 
 const i18Obj = {
   en: {
@@ -105,30 +105,3 @@ const getTranslate = (language) => {
 
 langEn.addEventListener("click", () => getTranslate((language = "en")));
 langRu.addEventListener("click", () => getTranslate((language = "ru")));
-
-/* Theme */
-
-/* Local storage */
-
-const setLocalStorage = () => {
-  localStorage.setItem("lang", language);
-};
-
-window.addEventListener("beforeunload", setLocalStorage);
-
-const getLocalStorage = () => {
-  if (localStorage.getItem("lang")) {
-    const lang = localStorage.getItem("lang");
-    if (lang == "en") {
-      getTranslate("en");
-      langRu.classList.remove("language-item--active");
-      langEn.classList.add("language-item--active");
-    }
-    if (lang == "ru") {
-      getTranslate("ru");
-      langRu.classList.add("language-item--active");
-      langEn.classList.remove("language-item--active");
-    }
-  }
-};
-window.addEventListener("load", getLocalStorage);

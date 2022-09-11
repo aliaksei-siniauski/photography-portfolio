@@ -1,4 +1,4 @@
-export { iconTheme };
+export { iconTheme, changeTheme, theme };
 
 const iconTheme = document.querySelector(".icon-theme");
 const changingThemeClasses = [
@@ -33,7 +33,14 @@ const changeTheme = () => {
     classesToChange.forEach((item) => {
       item.classList.toggle("theme-light");
     });
+    if (document.querySelector("body").classList.contains("theme-light")) {
+      theme = "light";
+    } else {
+      theme = "dark";
+    }
   });
 };
 
 iconTheme.addEventListener("click", changeTheme);
+
+let theme = "dark";

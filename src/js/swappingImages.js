@@ -8,7 +8,7 @@ const changePortfolioImages = (event) => {
     let season = event.target.dataset.season;
     portfolioImages.forEach(
       (img, index) =>
-        (img.src = `/src/images/portfolio/${season}/${index + 1}.jpg`)
+        (img.src = `src/images/portfolio/${season}/${index + 1}.jpg`)
     );
   }
 };

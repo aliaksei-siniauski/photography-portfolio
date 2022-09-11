@@ -1,0 +1,38 @@
+.language {
+  padding-inline: 3.5rem;
+  @extend %cursor-pointer;
+  @include media-tablet {
+    margin-left: auto;
+  }
+  @include media-mobile {
+    padding-inline: 1.5rem;
+  }
+}
+
+.language-item {
+  @include font($fs-main, 5rem, 700);
+  &.theme-light {
+    color: $black-color;
+  }
+  &:first-child {
+    padding-right: 0.8rem;
+    @include media-mobile {
+      padding-right: 0;
+    }
+  }
+  &:last-child {
+    padding-left: 0.7rem;
+    @include media-mobile {
+      padding-left: 0;
+    }
+  }
+  &--active {
+    color: $main-color;
+    &.theme-light {
+      color: $light-color;
+    }
+  }
+  @include media-mobile {
+    font-size: 3vh;
+  }
+}

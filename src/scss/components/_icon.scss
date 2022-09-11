@@ -1,0 +1,45 @@
+.icon {
+  display: inline-block;
+  @extend %transition;
+  @extend %cursor-pointer;
+  &:hover {
+    @extend %icon-hover;
+  }
+}
+
+.icon-theme {
+  width: 45px;
+  height: 45px;
+  background-image: url("/src/icons/sun.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  @extend %transition;
+  &.theme-light {
+    background-image: url("/src/icons/moon.svg");
+  }
+}
+
+.icon-play {
+  width: 130px;
+  height: 130px;
+  @extend %transition;
+  &.theme-light {
+    filter: brightness(0%);
+    &:hover {
+      @extend %icon-hover;
+    }
+  }
+  @include media-tablet {
+    width: 75px;
+    height: 75px;
+  }
+}
+
+.footer-icon {
+  &.theme-light {
+    filter: brightness(0%);
+    &:hover {
+      @extend %icon-hover;
+    }
+  }
+}

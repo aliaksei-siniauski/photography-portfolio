@@ -1,7 +1,7 @@
 # [photography-portfolio](https://aliaksei-siniauski.github.io/photography-portfolio/) 
 
 ## Project Description:
-Responsive and interactive interactive landing page of a photographer's portfolio
+Responsive and interactive landing page of a photographer's portfolio
 
 ## Highlights:
 - semantic HTML

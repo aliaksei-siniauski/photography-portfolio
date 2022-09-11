@@ -1,5 +1,5 @@
 .portfolio-items {
-  flex-wrap: wrap;
+  @extend %flex-wrap;
   padding-top: 6rem;
   gap: $image-gap;
   @media screen and (max-width: 964px) {
@@ -9,7 +9,7 @@
 
 .portfolio-buttons {
   @extend %flex;
-  flex-wrap: wrap;
+  @extend %flex-wrap;
   @extend %js-content-center;
   gap: 5px;
 }

@@ -2,20 +2,20 @@
   margin-top: 10rem;
   @extend %flex;
   justify-content: flex-end;
-  background-image: url("/src/images/contacts.jpg");
+  background-image: url("../images/contacts.jpg");
   background-size: auto 700px;
-  background-position: center 0;
   background-repeat: no-repeat;
+  background-position: center 0;
   &.theme-light {
-    background-image: url("/src/images/theme-light/contacts.jpg");
+    background-image: url("../images/theme-light/contacts.jpg");
     background-size: auto 700px;
-    background-position: center 0;
     background-repeat: no-repeat;
+    background-position: center 0;
   }
   @include media-desktop {
     background-size: cover;
     &.theme-light {
-      background-image: url("/src/images/theme-light/contacts.jpg");
+      background-image: url("../images/theme-light/contacts.jpg");
       background-size: cover;
     }
   }
@@ -24,12 +24,12 @@
     align-items: center;
     flex-direction: column;
     margin-top: 8rem;
-    background-image: url("/src/images/contacts-mb.jpg");
+    background-image: url("../images/contacts-mb.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: auto 600px;
     &.theme-light {
-      background-image: url("/src/images/theme-light/contacts.jpg");
+      background-image: url("../images/theme-light/contacts.jpg");
       background-repeat: no-repeat;
       background-position: top center;
       background-size: auto 600px;
@@ -52,7 +52,7 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   -webkit-text-fill-color: $main-color;
-  transition: background-color 0s ease-in-out 9000s;
+  transition: background-color 0.5 ease-in-out;
 }
 
 .contact-form {

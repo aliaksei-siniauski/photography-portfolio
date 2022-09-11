@@ -25,22 +25,22 @@
   background-position: center top;
   @extend %text-center;
   &:nth-child(1) {
-    background-image: url("/src/icons/skill-1.svg");
+    background-image: url("../icons/skill-1.svg");
     background-size: 60px;
   }
   &:nth-child(2) {
-    background-image: url("/src/icons/skill-2.svg");
+    background-image: url("../icons/skill-2.svg");
     background-size: 55px;
     @include media-tablet {
       padding-right: 0.6rem;
     }
   }
   &:nth-child(3) {
-    background-image: url("/src/icons/skill-3.svg");
+    background-image: url("../icons/skill-3.svg");
     background-size: 66px 45px;
   }
   &:last-child {
-    background-image: url("/src/icons/skill-4.svg");
+    background-image: url("../icons/skill-4.svg");
     background-size: 31px;
     padding-right: 1rem;
   }

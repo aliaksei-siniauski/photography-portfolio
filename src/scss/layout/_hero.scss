@@ -1,19 +1,19 @@
 .hero__container {
-  background: url("/src/images/bg.jpg");
+  background: url("../images/bg.jpg");
   background-position: center -94px;
   background-repeat: no-repeat;
   padding-top: 15rem;
   padding-left: 8rem;
   padding-bottom: 33rem;
   &.theme-light {
-    background: url("/src/images/theme-light/bg.jpg");
+    background: url("../images/theme-light/bg.jpg");
     background-repeat: no-repeat;
     background-position: center -94px;
   }
   @include media-desktop {
     background-size: cover;
     &.theme-light {
-      background: url("/src/images/theme-light/bg.jpg");
+      background: url("../images/theme-light/bg.jpg");
       background-size: cover;
       background-position: center -94px;
     }
@@ -22,9 +22,9 @@
     padding-top: 7.1rem;
     padding-bottom: 15.1rem;
     padding-left: 6rem;
-    background-image: url("/src/images/bg-mb.jpg");
+    background-image: url("../images/bg-mb.jpg");
     &.theme-light {
-      background: url("/src/images/theme-light/bg-mb.jpg");
+      background: url("../images/theme-light/bg-mb.jpg");
       background-position: center -94px;
     }
   }
@@ -47,8 +47,8 @@
   line-height: 4rem;
   @include media-tablet {
     padding-top: 0.6rem;
-    line-height: 2.4rem;
     padding-right: 0;
+    line-height: 2.4rem;
   }
 }
 

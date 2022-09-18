@@ -1,4 +1,4 @@
-# [photography-portfolio](<a href="./product/download.html" target="_top">Download Page</a>)
+# [photography-portfolio](https://aliaksei-siniauski.github.io/photography-portfolio/)
 
 ![photography-project screen](https://user-images.githubusercontent.com/92273438/190915601-9cd16dcc-459a-4781-a581-62d9711b448e.png)
 

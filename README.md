@@ -1,6 +1,8 @@
 # [photography-portfolio](https://aliaksei-siniauski.github.io/photography-portfolio/) 
-![alt text](https://github.com/[aliaksei-siniauski]/[myPortfolioProject
-]/blob/[main]/src/images/portfolio-3.jpg?raw=true)
+
+
+![portfolio-4](https://user-images.githubusercontent.com/92273438/190915168-52a8284a-9290-413d-979c-e7cc7029fddc.jpg)
+
 
 ## Project Description:
 Responsive and interactive landing page of a photographer's portfolio

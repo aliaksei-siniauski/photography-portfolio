@@ -5,7 +5,7 @@
 
 
 ## Project Description:
-Photographer portfolio responsive and interactive landing pagee
+Photographer portfolio responsive and interactive landing page
 
 ## Highlights:
 - semantic HTML

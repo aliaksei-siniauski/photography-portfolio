@@ -5,7 +5,7 @@
 
 
 ## Project Description:
-Responsive and interactive landing page of a photographer's portfolio
+                Photographer portfolio responsive and interactive landing pagee
 
 ## Highlights:
 - semantic HTML
@@ -22,7 +22,7 @@ Responsive and interactive landing page of a photographer's portfolio
 - image caching
 - changing dynamically images source in portfolio section
 - multiply language translation
-- ability to switch between light and dark theme
+- switching between light and dark theme
 
 ## Techs:
  * HTML5

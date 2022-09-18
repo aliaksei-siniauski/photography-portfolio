@@ -1,7 +1,7 @@
 # [photography-portfolio](https://aliaksei-siniauski.github.io/photography-portfolio/) 
 
 
-![portfolio-4](https://user-images.githubusercontent.com/92273438/190915168-52a8284a-9290-413d-979c-e7cc7029fddc.jpg)
+![photography-project screen](https://user-images.githubusercontent.com/92273438/190915601-9cd16dcc-459a-4781-a581-62d9711b448e.png)
 
 
 ## Project Description:

@@ -7,21 +7,28 @@
 Photographer portfolio responsive and interactive landing page
 
 ## Highlights:
-- semantic HTML
-- readable and easy to maintain code
-- modular JavaScript
-- event handling
-- event delegation
-- arrow functions 
-- localStorage mechanism 
+- Semantic HTML
+- Readable and easy to maintain code
+- Responsive CSS
+- Querying and manipulating with the DOM
+- Event listeners
+- Click events
+- Arrow functions 
+- Storing data in the Local Storage
+- Template strings
+- Data attributes
+- Modular JavaScript
 
 ## Features: 
-- adaptive menu
-- adaptive background image
-- image caching
-- changing dynamically images source in portfolio section
-- multiply language translation
-- switching between light and dark theme
+- Interactive burger menu
+- Lighting of the active button
+- Image caching
+- Interactive changing images in the portfolio section
+- Multiply language translation
+- Be able to switch between light and dark theme
+- Be able to resize the page without breaking the layout
+- Be able to smoothly scroll to other sections of the page with anchors
+
 
 ## Techs:
  * HTML5
